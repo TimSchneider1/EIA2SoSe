@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+#span0{
+    position: fixed;
+    offset: right;
+    background-color: black;
+}
+
+#div0{
+    height: 500px;
+    width: 400px;
+    background-color: gray;
+}
+
+#div1{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(181, 181, 181);
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
