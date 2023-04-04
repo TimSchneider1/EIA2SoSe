@@ -8,7 +8,7 @@ var A02;
         let offsetX = _mouse.clientX + 5;
         let offsetY = _mouse.clientY + 5;
         if (span != null) {
-            span.innerText = "Mouseposition: X: " + xvalue + ", Y: " + yvalue + _mouse.target;
+            span.innerText = "Mouseposition: X: " + xvalue + " Y: " + yvalue + _mouse.target;
             span.style.left = offsetX + "px";
             span.style.top = offsetY + "px";
         }

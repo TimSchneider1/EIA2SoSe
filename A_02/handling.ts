@@ -12,7 +12,7 @@ namespace A02{
         let offsetY: number = _mouse.clientY+5;
 
         if (span != null) {
-            span.innerText = "Mouseposition: X: " + xvalue + ", Y: " + yvalue + _mouse.target;
+            span.innerText = "Mouseposition: X: " + xvalue + " Y: " + yvalue + _mouse.target;
 
             span.style.left = offsetX + "px";
             span.style.top = offsetY + "px";
