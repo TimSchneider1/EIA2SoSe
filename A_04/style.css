@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#screen{
+    margin: 20px;
+    width: 500px;
+    height: 800px;
+    background-color: rgb(223, 211, 190);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(55, 55, 55);
+}
